@@ -1,0 +1,14 @@
+{
+  "token":"abc123",
+  "picfolder":"pictures/",
+  "names": ["Plane✈","Eagle🦅","Mr.Skull💀","DrFireball🔥"],
+  "bios":["Whatever you are, be a good one.",
+  "Limit your 'always' and your 'nevers'.",
+  "Positive anything is better than negative nothing."],
+  "text_size_multiplier": 0.12,
+  "timezone":"UTC",
+  "angle":0,
+  "stroke":[0,45,0],
+  "text":[255,255,255],
+  "debug":"true"
+}

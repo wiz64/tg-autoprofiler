@@ -1,0 +1,23 @@
+﻿https://github.com/wiz64/tg-autoprofiler
+PHP Script to change your Name, Bio, Profile pic on Telegram on cron(like every 1 hour)
+----
+config.json
+----
+{
+  "token":"abc123", // security token, not yet implemented
+  "picfolder":"pictures/", // folder to get pictures from
+  "names": ["Apple✈","Eagle🦅","Mr.Skull💀","Mr.Fire🔥"], // Nicknames Array - one will be chosen at random
+  
+  "bios":["GONNA RIP YOUR SOULS AWAY!",
+  "THE MOST POWERFUL SOURCE OF ENERGY BELONGS TO DARKNESS",
+  "Look how a single candle can defy and define the darkness."], 
+
+  // Array of Bio strings - one will be chosen at random
+  
+  "text_size_multiplier": 0.12, // font/text size multiplier * Image Size
+  "timezone":"UTC", // Timezone, eg. "Asia/Calcutta","Europe/Athens"
+  "angle":0, // Text Tilt angle 
+  "stroke":[0,45,0], // Text stroke color (rgb)
+  "text":[255,255,255], // Text Color (rgb)
+  "debug":"true"
+}
