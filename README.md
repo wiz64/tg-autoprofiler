@@ -5,7 +5,8 @@ PHP Script to change your name, bio, profile picture automatically on cron/Http 
 # Details
 > Developer : [wiz64](https://github.com/wiz64)<br>
 > Repo: [Github](https://github.com/wiz64/tg-autoprofiler)
-
+<!-- picture -->
+<img src="https://user-images.githubusercontent.com/67432394/199704649-1f1a70a2-8c55-4cb1-8079-e40cfe00523e.png" width="300px">
 
 - Write Time/Date at middle of your profile pic
 - Update Telegram Profile Picture every hour out of chosen pics 😎
@@ -50,3 +51,6 @@ Note- You can easily host this script on any PHP Webserver. Tested on php7.4 on 
 Credits - [wiz64](https://github.com/wiz64)
 ---
 Sponsor/Donate me to support the development of this and many other projects I maintain.
+### Images
+<p><img src="https://user-images.githubusercontent.com/67432394/199704588-e8682dee-2450-4e95-bf63-16274f4a6989.png" width="300px">
+<img src="https://user-images.githubusercontent.com/67432394/199704749-42987753-0c63-4b64-936d-acf1eb17bce1.png" width="300px"></p>
