@@ -13,6 +13,7 @@ PHP Script to change your name, bio, profile picture automatically on cron/Http 
 - Update Randomly Selected Name & Bio
 - Fake last seen time
 - Do More Automated Stuff !
+- Runs over cli & Webserver both
 
 ### CAUTION !!!
 Note - Use at your own risk
