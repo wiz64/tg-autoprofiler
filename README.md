@@ -25,7 +25,7 @@ Requirements :
 - `PHP 7.2+ Web-Server/Web Hosting`
 - `php-gd, php-mbstring, php-xml` - extensions 
 Note- You can easily host this script on any PHP Webserver. Tested on php7.4 on Replit
-### Web/FTP
+### Web Hosting/FTP
 - Download this repository as a zip file. extract it to your webserver.
 - Upload your profile photos to pictures folder, any .jpg file will be chosen at random. Replace `font.ttf` for custom font.
 - Change bio/name/settings by editing [config.json](config.json)
@@ -34,15 +34,19 @@ Note- You can easily host this script on any PHP Webserver. Tested on php7.4 on 
 - Use [cron-job.org](https://cron-job.org/en/) to setup a hourly/daily cron
 
 ### CLI
+Install PHP
+```
+sudo apt install php7.4 php7.4-mbstring php7.4-xml php7.4-gd
+```
  - Clone the repository / Download zip and extract it
  - Configure as in Web
  - run <br>
- `php index.php` <br>
+ `php index.php` or `/usr/bin/php7.4 index.php` <br>
  to login twice and test script
  - Setup Cron job using crontab. Run
  - `crontab -e` <br>
  and then add the php script
- - `0 * * * * php /path/to/index.php` <br><br>
+ - `0 * * * * /usr/bin/php7.4 /path/to/index.php` <br><br>
  Note -  `0 * * * *` means hourly here.<br>
  [crontab.guru](https://crontab.guru/)
 
