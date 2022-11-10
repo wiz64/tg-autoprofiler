@@ -38,17 +38,17 @@ Note- You can easily host this script on any PHP Webserver. Tested on php8.1 on 
 ### CLI
 Install PHP
 ```
-sudo apt install php7.4 php7.4-mbstring php7.4-xml php7.4-gd
+sudo apt install php8.1 php8.1-mbstring php8.1-xml php8.1-gd
 ```
  - Clone the repository / Download zip and extract it
  - Configure as in Web
  - run <br>
- `php index.php` or `/usr/bin/php7.4 index.php` <br>
+ `php index.php` or `/usr/bin/php8.1 index.php` <br>
  to login twice and test script
  - Setup Cron job using crontab. Run
  - `crontab -e` <br>
  and then add the php script
- - `0 * * * * /usr/bin/php7.4 /path/to/index.php` <br><br>
+ - `0 * * * * /usr/bin/php8.1 /path/to/index.php` <br><br>
  Note -  `0 * * * *` means hourly here.<br>
  [crontab.guru](https://crontab.guru/)
 
