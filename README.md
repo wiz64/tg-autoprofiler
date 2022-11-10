@@ -22,10 +22,16 @@ Also keep the hosting url to you only. KEEP `sessions` folder inaccessible to op
 
 ## INSTALLATION
 Requirements :
-- `PHP 7.2+ Web-Server/Web Hosting`
+- `PHP 8.1+ Web-Server/Web Hosting`<br>
+Note* - php7 is not supported
 - `php-gd, php-mbstring, php-xml` - extensions 
+<<<<<<< HEAD
 Note- You can easily host this script on any PHP Webserver. Tested on php7.4 on Replit
 ### Web Hosting/FTP
+=======
+Note- You can easily host this script on any PHP Webserver. Tested on php8.1 on Replit
+### Web/FTP
+>>>>>>> 268b208 (update php8.1)
 - Download this repository as a zip file. extract it to your webserver.
 - Upload your profile photos to pictures folder, any .jpg file will be chosen at random. Replace `font.ttf` for custom font.
 - Change bio/name/settings by editing [config.json](config.json)
